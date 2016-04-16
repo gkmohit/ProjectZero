@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.mohitkishore.www.projectzero.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_title"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/activity_title_size"
+        android:textColor="@color/button_color"
+        android:layout_marginTop="35dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/popular_movies"
+        android:id="@+id/popularMovieButton"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/button_text_color"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stock_hawk"
+        android:id="@+id/stockHawkButton"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/popularMovieButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/buildItBuggerButton"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/stockHawkButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/make_your_app_material"
+        android:id="@+id/makeYourAppMaterialButton"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/buildItBuggerButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_ubiquitious"
+        android:id="@+id/goUbiqutiousButton"
+        android:gravity="center"
+        android:background="@color/button_color"
+        android:textSize="@dimen/button_text_size"
+        android:layout_below="@+id/makeYourAppMaterialButton"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/button_text_color"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone"
+        android:id="@+id/capstoneButton"
+        android:gravity="center"
+        android:textSize="@dimen/button_text_size"
+        android:background="@color/button_color"
+        android:textColor="@color/button_text_color"
+        android:layout_below="@+id/goUbiqutiousButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>
